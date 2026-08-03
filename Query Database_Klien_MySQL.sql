@@ -154,3 +154,9 @@ select * from DataTransaksi;
 select distinct DataTransaksi.ID_Klien, DataTransaksi.Nama_Klien, DataTransaksi.Produk , DataTransaksi.Nama_Sales, SalesPerson.Jabatan, MasterKlien.PIC,MasterKlien.Status_Klien from DataTransaksi 
 join MasterKlien on DataTransaksi.ID_Klien= MasterKlien.ID_Klien
 join SalesPerson on DataTransaksi.Nama_Sales=SalesPerson.Nama_Sales where Status_Klien="Aktif";
+
+# 2. Menambahkan kolom 
+alter table DataTransaksi add Total_Transaksi;
+
+# 3. Isi nilai Total_Transaksi dengan kali otomatis
+update DataTransaksi set Total_Transaksi= Quantity * Harga_Satuan;
