@@ -31,6 +31,8 @@ Kota varchar (20) not null,
 Nama_Sales varchar (50) not null,
 Produk varchar(50) not null,
 Kategori_Produk varchar(50) not null,
+Quantity int not null,
+Status_Transaksi varchar(15) not null
 primary key(ID_Transaksi),
 constraint fk_ID_Klien foreign key (ID_Klien) references MasterKlien (ID_Klien),
 constraint fk_ID_Salesperson foreign key (Nama_Sales) references SalesPerson (Nama_Sales)
