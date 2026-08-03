@@ -34,21 +34,21 @@ constraint fk_ID_Salesperson foreign key (Nama_Sales) references SalesPerson (Na
 ####################### INSERT VALUE DATA
 
 insert into MasterKlien values
-("KL-001","PT Maju Bersama","Bapak Hendra","Non-Aktif",08115926217,"cs@majubersama.co.id"),
-("KL-002","PT Nusantara Jaya","Bapak Dodi","Non-Aktif",08801660785,"cs@nusantarajaya.co.id"),
-("KL-003","PT Sinar Makmur","Ibu Sarah","Aktif",08451943376,"cs@sinarmakmur.co.id"),
-("KL-004","PT Karya Utama","Bapak Dodi","Aktif",08147842055,"cs@karyautama.co.id"),
-("KL-005","PT Global Teknindo","Bapak Dodi","Aktif",08509746306,"cs@globalteknindo.co.id"),
-("KL-006","PT Prima Sejahtera","Bapak Dodi","Aktif",08590518715,"cs@primasejahtera.co.id"),
-("KL-007","PT Delta Solusi","Bapak Dodi","Aktif",08242784194,"cs@deltasolusi.co.id"),
-("KL-008","PT Cipta Mandiri","Bapak Hendra","Aktif",08502914096,"cs@ciptamandiri.co.id"),
-("KL-009","PT Indo Perkasa","Ibu Rina","Prospek",08243851904,"cs@indoperkasa.co.id"),
-("KL-010","PT Cahaya Baru","Bapak Dodi","Aktif",08928988255,"cs@cahayabaru.co.id"),
-("KL-011","PT Mitra Abadi","Bapak Hendra","Aktif",08583852762,"cs@mitraabadi.co.id"),
-("KL-012","PT Anugerah Teknik","Ibu Yanti","Non-Aktif",08727651733,"cs@anugerahteknik.co.id"),
-("KL-013","PT Sumber Rezeki","Ibu Rina","Prospek",08543316015,"cs@sumberrezeki.co.id"),
-("KL-014","PT Mega Solusi","Ibu Sarah","Aktif",08423372648,"cs@megasolusi.co.id"),
-("KL-015","PT Harapan Bangsa","Ibu Rina","Prospek",08512766609,"cs@harapanbangsa.co.id");
+("KL-001","PT Maju Bersama","Surabaya","Bapak Hendra","Non-Aktif","Warm",08115926217,"cs@majubersama.co.id"),
+("KL-002","PT Nusantara Jaya","Jakarta","Bapak Dodi","Non-Aktif","Warm",08801660785,"cs@nusantarajaya.co.id"),
+("KL-003","PT Sinar Makmur","Bandung","Ibu Sarah","Aktif","Cold",08451943376,"cs@sinarmakmur.co.id"),
+("KL-004","PT Karya Utama","Semarang","Bapak Dodi","Aktif","Cold",08147842055,"cs@karyautama.co.id"),
+("KL-005","PT Global Teknindo","Medan","Bapak Dodi","Aktif","Cold",08509746306,"cs@globalteknindo.co.id"),
+("KL-006","PT Prima Sejahtera","Makassar","Bapak Dodi","Aktif","Cold",08590518715,"cs@primasejahtera.co.id"),
+("KL-007","PT Delta Solusi","Surabaya","Bapak Dodi","Aktif","Cold",08242784194,"cs@deltasolusi.co.id"),
+("KL-008","PT Cipta Mandiri","Yogyakarta","Bapak Hendra","Aktif","Warm",08502914096,"cs@ciamandiri.co.id"),
+("KL-009","PT Indo Perkasa","Jakarta","Ibu Rina","Prospek","Hot",08243851904,"cs@indoperkasa.co.id"),
+("KL-010","PT Cahaya Baru","Denpasar","Bapak Dodi","Aktif","Cold",08928988255,"cs@cahayabaru.co.id"),
+("KL-011","PT Mitra Abadi","Balikpapan","Bapak Hendra","Aktif","Cold",08583852762,"cs@mitraabadi.co.id"),
+("KL-012","PT Anugerah Teknik","Surabaya","Ibu Yanti","Non-Aktif","Hot",08727651733,"cs@anugerahteknik.co.id"),
+("KL-013","PT Sumber Rezeki","Bandung","Ibu Rina","Prospek","Hot",08543316015,"cs@sumberrezeki.co.id"),
+("KL-014","PT Mega Solusi","Jakarta","Ibu Sarah","Aktif","Hot",08423372648,"cs@megasolusi.co.id"),
+("KL-015","PT Harapan Bangsa","Palembang","Ibu Rina","Prospek","Hot",08512766609,"cs@harapanbangsa.co.id");
 
 insert into SalesPerson values
 ("Andi Wijaya","SP-001","Senior Sales"),
