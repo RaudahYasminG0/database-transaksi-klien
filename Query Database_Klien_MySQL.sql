@@ -6,8 +6,10 @@ use kliensevima; #memanggil file database (jika sudah mulai membuatdatabase, cuk
 create table MasterKlien(
 ID_Klien varchar(10) not null,
 Nama_Klien varchar (50) not null,
+Kota varchar (20) not null,
 PIC varchar (50) not null,
 Status_Klien varchar (10) not null,
+Status_Lead varchar (10) not null,
 No_Telp bigint not null,
 Email_Klien varchar (25) not null,
 primary key(ID_Klien)
@@ -22,10 +24,13 @@ primary key (Nama_Sales)
 
 create table DataTransaksi(
 ID_Transaksi varchar(10) not null,
+Tanggal date not null,
 ID_Klien varchar(10) not null,
 Nama_Klien varchar (50) not null,
-Produk varchar(50) not null,
+Kota varchar (20) not null,
 Nama_Sales varchar (50) not null,
+Produk varchar(50) not null,
+Kategori_Produk varchar(50) not null,
 primary key(ID_Transaksi),
 constraint fk_ID_Klien foreign key (ID_Klien) references MasterKlien (ID_Klien),
 constraint fk_ID_Salesperson foreign key (Nama_Sales) references SalesPerson (Nama_Sales)
